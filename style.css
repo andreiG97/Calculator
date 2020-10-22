@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to right,rgb(162, 162, 214), rgb(168, 103, 103));
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    width: 250px;
+    height: 260px;
+    background-color: rgba(63, 59, 59, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    border-radius: 10px;
+    border: thick;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+div p{
+    font-size: 18px;
+    height: 30px;
+    text-decoration: slategray;
+    font-weight: 100;
+    text-align: center;
+}
+
+.line0, .line1, .line2, .line3, .line4, .line5{
+    width: 100%;
+    background-color: snow;
+    
+}
+.line1 button{  
+    width: 45%;   
+}
+
+.line1{
+    display:  flex;
+    justify-content: space-between;
+}
+
+div button{
+    width: 23.5%;
+    border-radius: 10px;
+    font-size: 15px;
+    height: 28px;
+    margin-top: 3px; 
+    background-color: springgreen;
+    text-align: center;   
+}
+
+button:hover {
+    background-color: silver;
+    cursor: pointer;
+}
